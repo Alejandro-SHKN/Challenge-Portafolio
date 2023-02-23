@@ -1,0 +1,38 @@
+.sobreIntroduccion{
+    margin-top: 76px;
+    background-color: #E5E5E5;
+}
+
+.h1__tituloPrincipal{
+    text-align: center;
+
+}
+.div__p__descripcion-introduccion{
+    background: rgb(255, 255, 255);
+    padding: 12px;
+    margin: 0 10px;
+    border-radius: 20px 20px 20px 2px;
+}
+
+.p__descripcion-introduccion{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.div__ul__enlaces-introduccion{
+ margin-top: 20px;
+}
+
+.ul__enlaces-introduccion{
+    display: flex;
+    justify-content: space-around;
+}
+.li__enlaces-introduccion{
+    font-family: 'Raleway', sans-serif;
+    background: rgba(143, 192, 241, 0.597);
+    padding: 8px;
+    border-radius: 10px;
+
+}
+.flecha__png{
+    width: 15px;
+}
