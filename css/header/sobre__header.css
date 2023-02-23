@@ -1,4 +1,6 @@
-
+body{
+    width: 100%;
+}
 .div__header{
     width: 100%;
     padding-top: 10px;
@@ -6,7 +8,8 @@
     font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: space-between;
-    background-color: #f1f1f1;
+    background-image: linear-gradient(to bottom,white,#E5E5E5);
+    /* background-color: #f1f1f1; */
 }
 
 .h2__minombreHeader{
@@ -35,7 +38,10 @@
 }
 .li__enlacesHead{
     margin: 14px 0;
+}
+.li__enlacesHead:not(:hover){
     transition: all 900ms ease-in-out;
+
 }
 .a__enlacesHead{
     text-decoration: none;
@@ -43,15 +49,10 @@
     color: rgb(94 94 94);
     font-weight: bold;
     font-size: 15px;
-    background: rgb(255, 255, 255);
-    padding: 1px 10px;
+    background: rgba(149, 149, 149, 0);
+    padding: 1px 10px; 
     border-radius: 9px;
-    /* text-decoration: none;
-    letter-spacing: 1px;
-    color: rgb(94 94 94);
-    font-weight: bold;
-    font-size: 13px;
-    background: rgb(255, 255, 255);
-    padding: 1px 4px;
-    border-radius: 9px; */
+    border: solid;
+    border-width:1.5px;
+    border-color: rgb(114, 123, 125);
 }

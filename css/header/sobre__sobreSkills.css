@@ -1,0 +1,45 @@
+.sobreSkills{
+    background-color: #E5E5E5;
+    margin-top: 16px;
+}
+.h2__sobreskills-skills{
+font-family: Raleway;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+}
+.div__exteriorskills{
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.div__contenedor-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    width: 170px;
+    height: 106px;
+    padding: 10px 2px;
+    margin-bottom: 10px; 
+}
+.div__skillsinterior-1{
+    flex-direction: column;
+}
+.img__vector{
+    width: 50px;
+    margin-bottom: 10px;
+}
+.h4__titulo-skills{
+    font-family: 'Raleway', sans-serif;
+    
+}
+.div__skillsinterior-2{
+    flex-direction: column;
+}
+
