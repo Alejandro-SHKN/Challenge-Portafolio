@@ -6,7 +6,7 @@
     font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: space-between;
-    background-color: #E5E5E5;
+    background-color: #f1f1f1;
 }
 
 .h2__minombreHeader{
@@ -20,7 +20,7 @@
     margin-right: 10px;
 }
 .img__mifoto-header{
-    position: absolute;
+    position: absolute;  
     top: 100px;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -33,12 +33,25 @@
     line-height: 19px;
     text-align: end;
 }
+.li__enlacesHead{
+    margin: 14px 0;
+    transition: all 900ms ease-in-out;
+}
 .a__enlacesHead{
     text-decoration: none;
+    letter-spacing: 1px;
+    color: rgb(94 94 94);
+    font-weight: bold;
+    font-size: 15px;
+    background: rgb(255, 255, 255);
+    padding: 1px 10px;
+    border-radius: 9px;
+    /* text-decoration: none;
+    letter-spacing: 1px;
     color: rgb(94 94 94);
     font-weight: bold;
     font-size: 13px;
-    background: #0033c41c;
+    background: rgb(255, 255, 255);
     padding: 1px 4px;
-    border-radius: 9px;
+    border-radius: 9px; */
 }
