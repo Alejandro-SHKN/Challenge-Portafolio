@@ -1,0 +1,26 @@
+.sobreSobremi{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 16px;
+}
+.div__sobremi{
+    background-color: #EAF2FD;    
+    padding: 15px;
+    border-radius: 20px;
+}
+.h2__sobremi{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+    color: #464646;
+}
+.p__descripcionsobremi{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.44px;
+    
+}
+.img__firma{
+    width: 140px;
+}
