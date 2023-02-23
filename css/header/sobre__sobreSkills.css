@@ -28,18 +28,18 @@ text-align: center;
     padding: 10px 2px;
     margin-bottom: 10px; 
 }
-.div__skillsinterior-1{
-    flex-direction: column;
-}
 .img__vector{
     width: 50px;
     margin-bottom: 10px;
 }
 .h4__titulo-skills{
     font-family: 'Raleway', sans-serif;
-    
+    font-size: 20px;
+    font-weight: bold;
+}
+.div__skillsinterior-1{
+    flex-direction: column;
 }
 .div__skillsinterior-2{
     flex-direction: column;
 }
-
