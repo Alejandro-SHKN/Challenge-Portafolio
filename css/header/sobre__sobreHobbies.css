@@ -10,3 +10,36 @@
     letter-spacing: 0em;
     text-align: center;
 }
+
+.div__externohobbies {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div__internohobbies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    width: 170px;
+    height: 106px;
+    padding: 10px 2px;
+    margin-bottom: 10px;
+}
+
+.img__hobbies {
+    width: 59px;
+}
+
+.h4__hobbies {
+    font-family: Raleway;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
