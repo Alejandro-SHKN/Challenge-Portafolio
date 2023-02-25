@@ -1,0 +1,54 @@
+.sobreFormacion {
+    margin-top: 16px;
+    background: #EAF2FD;
+
+}
+
+.h2__formacion {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-family: Raleway;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.div__formacion-academica {
+    margin-top: 24px;
+}
+
+.div__externoformacion {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.div__internoformacionimg {
+    margin-top: 16px;
+}
+
+.img__experiencia {
+    border-radius: 35px;
+}
+
+.div__internoformacion {
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.p__statusfecha {
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 8px;
+}
