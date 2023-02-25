@@ -33,10 +33,18 @@
 }
 .li__enlaces-introduccion{
     font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
     background: rgba(143, 192, 241, 0.597);
     padding: 8px;
     border-radius: 10px;
     transition: all 1.2s ease-in-out; 
+    text-decoration: none; 
+}
+.a__enlacesredes{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
 }
 .flecha__png{
     width: 11px;
