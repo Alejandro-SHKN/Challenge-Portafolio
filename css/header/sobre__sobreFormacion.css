@@ -1,6 +1,8 @@
 .sobreFormacion {
+    border-radius: 12px;
     margin-top: 16px;
     background: #EAF2FD;
+    padding-bottom: 32px;
 
 }
 
@@ -30,7 +32,7 @@
 }
 
 .img__experiencia {
-    border-radius: 35px;
+    border-radius: 10px;
 }
 
 .div__internoformacion {
@@ -49,6 +51,6 @@
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     margin-top: 8px;
 }
