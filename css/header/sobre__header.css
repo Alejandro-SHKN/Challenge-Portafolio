@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    width: -moz-fit-content;
+    width: fit-content;
 }
 
 body {
@@ -31,7 +33,10 @@ body {
 .p__correoHeader {
     font-size: 14px;
 }
-
+.a__correo-header{
+text-decoration: none;
+color: rgb(106, 152, 137);
+}
 .p__correoHeader img {
     pointer-events: none;
   }

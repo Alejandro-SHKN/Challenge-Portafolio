@@ -12,7 +12,6 @@
     line-height: 26px;
     letter-spacing: 0em;
     text-align: center;
-    margin-bottom: 32px;
 }
 
 .div__containerexterior-experiencia {
@@ -25,6 +24,7 @@
     border-style: solid;
     border-width: 1px;
     border-color: rgb(104, 175, 175);
+    margin-top: 32px;
 }
 .h4__experiencia {
     font-family: Raleway;
@@ -49,14 +49,14 @@
     font-family: Raleway;
     font-size: 1rem;
     padding: 12px 16px 12px 16px;
-    margin-bottom: 64px;
+    margin-top: 8px;
 }
-
+  
 .button__izquierdo-repositorio {
     height: 50px;
     width: 110px;
-    border-radius: 10px;
-    border-color: #2A7AE4;
+    border-radius: 19px;
+    border-color: #2ae4e1;
     padding: 12px 16px 12px 16px;
 }
 
@@ -65,8 +65,12 @@
     width: 120px;
     background-color: #2A7AE4;
     color:#FFFFFF;
-    border-radius: 10px;
-    border-width: 1px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #99c8ff;
+    border-width: 2px;
     text-align: center;
     padding: 12px 16px 12px 16px;
 }
+
+  

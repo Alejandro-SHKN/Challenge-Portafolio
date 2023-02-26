@@ -1,0 +1,97 @@
+.sobreContacto {
+    margin-top: 16px;
+    background: #EAF2FD;
+}
+
+.container-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.div__parrafocontainer-contacto {
+    margin-top: 32px;
+}
+
+.h2-contacto {
+    font-family: Raleway;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.pregunta-formulario {
+    font-family: Raleway;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin-top: 1rem;
+    text-align: left;
+    height: 76px;
+    width: 296px;
+    padding-bottom: 1rem;
+}
+
+.div__divcontainerformulario-contacto {
+    justify-content: start;
+}
+
+.input__formulario-contacto {
+    height: 56px;
+    width: 296px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    margin-top: 1rem;
+    border-style: none;
+    border-radius: 12px;
+}
+
+.input__formulario-contacto:focus {
+    outline-color: rgba(4, 205, 255, 0.517);
+    outline-width: 2px;
+    outline-style: dotted;
+}
+
+.textarea__formulario {
+    height: 133px;
+    margin-top: 1rem;
+    width: 296px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    resize: none;
+    border-style: none;
+    margin-bottom: 1rem;
+}
+
+.textarea__formulario:focus {
+    outline-color: rgb(0, 251, 171);
+    outline-style: groove;
+}
+
+.button__enviarformulario-contacto {
+    margin-bottom: 1rem;
+    width: 16rem;
+    height: 40px;
+    border: solid;
+    border-color: rgb(0, 255, 217);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px 25px 25px 25px;
+    padding: 12px 16px 12px 16px;
+    font-family: Raleway;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+
+}
+
+.divcontainer__buttonformulario-contacto {
+    display: flex;
+    justify-content: center;
+}
