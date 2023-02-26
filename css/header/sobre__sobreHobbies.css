@@ -1,8 +1,9 @@
 .sobreHobbies {
-    margin-top: 16px;
+    margin-top: 8px;
 }
 
 .h2__hobbies {
+    padding-top: 16px;
     font-family: Raleway;
     font-size: 29px;
     font-weight: 700;

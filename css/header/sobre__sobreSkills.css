@@ -3,6 +3,7 @@
     margin-top: 16px;
 }
 .h2__sobreskills-skills{
+    padding-top: 16px;
 font-family: Raleway;
 font-size: 29px;
 font-weight: 700;
@@ -11,7 +12,7 @@ letter-spacing: 0em;
 text-align: center;
 }
 .div__exteriorskills{
-    margin-top: 16px;
+    margin-top: 24px;
     width: 100%;
     display: flex;
     justify-content: space-around;
