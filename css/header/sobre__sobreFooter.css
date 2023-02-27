@@ -1,0 +1,30 @@
+.sobreFooter {background-color: black;
+}
+
+.div__divcontainer-footer {
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+}
+.img__footer-footer{
+    width: 100%;
+}
+.p__desarrolladopor-footer{
+    font-size: 8px;
+    font-family: sans-serif;
+    position: absolute;
+    padding-left: 15px;
+    bottom: 0;
+}
+.span__nombre-footer{
+    font-weight: 400;
+    font-style: italic;
+}
+.span__fecha-footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
