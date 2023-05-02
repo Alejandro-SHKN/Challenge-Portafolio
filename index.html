@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/header/sobre__sobreExperiencia.css">
     <link rel="stylesheet" href="css/header/sobre__sobreContacto.css">
     <link rel="stylesheet" href="css/header/sobre__sobreFooter.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediaquerys.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/base.css">
 </head>
@@ -37,19 +37,21 @@
                 <p class="p__correoHeader"><a href="#sobreContacto"
                         class="a__correo-header">alexshykan@gmail.com</a><img src="img/mifoto.png" alt="mi-foto"
                         class="img__mifoto-header"></p>
-                <ul class="ul__enlacesHeader">
-                    <li class="li__enlacesHead"><a href="#Sobremi" class="a__enlacesHead">Sobre Mi</a></li>
-                    <li class="li__enlacesHead"><a href="#Skills" class="a__enlacesHead">Skills</a></li>
-                    <li class="li__enlacesHead"><a href="#Hobbies" class="a__enlacesHead">Hobbies</a></li>
-                    <li class="li__enlacesHead"><a href="#Formacion" class="a__enlacesHead">Formacion</a></li>
-                    <li class="li__enlacesHead"><a href="#Proyectos" class="a__enlacesHead">Proyectos</a></li>
-                </ul>
+                <div class="div__containerul--container">
+                    <ul class="ul__enlacesHeader">
+                        <li class="li__enlacesHead"><a href="#Sobremi" class="a__enlacesHead">Sobre Mi</a></li>
+                        <li class="li__enlacesHead"><a href="#Skills" class="a__enlacesHead">Skills</a></li>
+                        <li class="li__enlacesHead"><a href="#Hobbies" class="a__enlacesHead">Hobbies</a></li>
+                        <li class="li__enlacesHead"><a href="#Formacion" class="a__enlacesHead">Formacion</a></li>
+                        <li class="li__enlacesHead"><a href="#Proyectos" class="a__enlacesHead">Proyectos</a></li>
+                    </ul>
+                </div>
             </div>
         </section>
     </header>
     <main>
         <section class="sobreIntroduccion">
-            <div>
+            <div class="div__containerIntroduccion--Introduccion">
                 <h1 class="h1__tituloPrincipal">Hola, mi nombre es Alejandro, y construyo páginas web</h1>
                 <div class="div__p__descripcion-introduccion">
                     <p class="p__descripcion-introduccion">Soy formado en la compañia Alura en colaboración con Oracle,
@@ -98,8 +100,10 @@
             <div class="div__exteriorskills">
                 <div class="div__skillsinterior-1">
                     <div class="div__contenedor-skills">
-                        <img src="img/svg-skills/html5-svg.svg" alt="" class="img__vector">
-                        <h4 class="h4__titulo-skills">HTML 5</h4>
+                        <div class="div__containerLogoyTexto--Skills" id="html5div">
+                            <img src="img/svg-skills/html5-svg.svg" alt="" class="img__vector">
+                            <h4 class="h4__titulo-skills" id="html5TituloInterno" >HTML 5</h4>
+                        </div>
                     </div>
                     <div class="div__contenedor-skills">
                         <img src="img/svg-skills/javascript-svg.svg" alt="" class="img__vector">
@@ -164,18 +168,18 @@
             <div class="div__formacion-academica">
                 <div class="div__externoformacion">
                     <h2 class="h2__formacion">Formacion Academica</h2>
-                    <div class="div__internoformacionimg"><img src="img/UFPR.png" alt="" class="img__experiencia"></div>
+                    <div class="div__internoformacionimg"><img src="./img/formacion_academica/certificado_secundaria.png" alt="" class="img__experiencia academica_secundaria"></div>
                     <div class="div__internoformacion">
-                        <p class="p__formacion">Análisis de datos</p>
+                        <p class="p__formacion">Finalización de la educacion media superior</p>
                         <p class="p__statusfecha">2018 - UFRP</p>
                     </div>
-                    <div class="div__internoformacionimg"><img src="img/ALURA.png" alt="" class="img__experiencia">
+                    <div class="div__internoformacionimg"><img src="./img/formacion_academica/Certificado_Derechos_Humanos.jpg" alt="" class="img__experiencia academica">
                     </div>
                     <div class="div__internoformacion">
                         <p class="p__formacion">Formación en UX Design</p>
                         <p class="p__statusfecha">2019 - Alura</p>
                     </div>
-                    <div class="div__internoformacionimg"><img src="img/jjpr.png" alt="" class="img__experiencia"></div>
+                    <div class="div__internoformacionimg"><img src="./img/formacion_academica/participacion_INE.jpg" alt="" class="img__experiencia academica"></div>
                     <div class="div__internoformacion">
                         <p class="p__formacion">Posgrado en design</p>
                         <p class="p__statusfecha">En curso - UFRJ</p>
@@ -285,6 +289,6 @@
             </div>
         </section>
     </footer>
+    <script src="Javascript/javascript.js"></script>
 </body>
-
 </html>

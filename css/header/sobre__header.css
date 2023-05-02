@@ -33,13 +33,15 @@ body {
 .p__correoHeader {
     font-size: 14px;
 }
-.a__correo-header{
-text-decoration: none;
-color: rgb(106, 152, 137);
+
+.a__correo-header {
+    text-decoration: none;
+    color: rgb(106, 152, 137);
 }
+
 .p__correoHeader img {
     pointer-events: none;
-  }
+}
 
 .img__mifoto-header {
     position: absolute;
@@ -78,4 +80,71 @@ color: rgb(106, 152, 137);
     border: solid;
     border-width: 1.5px;
     border-color: rgb(114, 123, 125);
+}
+
+/* CSS Javascript Skills */
+/* HTML5 */
+
+ #botonCerrar{
+    /* border: solid; */
+    border-color: rgb(255, 0, 0);
+    border-width: 2px;
+    border-radius: 20px;
+    background-color: rgb(255, 212, 212);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: Raleway;
+}
+.JS-P__infoHTML5--Skills{
+    color: rgb(93, 93, 93);
+    font-family: Raleway;
+    text-align: center;
+ }
+/* RESPONSIVE */
+@media (min-width:1080px) {
+    .div__containerul--container {
+        position: absolute;
+        width: 100%;
+    }
+
+    .ul__enlacesHeader{
+        display: flex;
+        justify-content: space-between;
+    }
+    .a__enlacesHead {
+        text-decoration: none;
+        letter-spacing: 1px;
+        color: rgb(94 94 94);
+        font-weight: bold;
+        width: 100px;
+        font-size: 20px;
+        background: rgba(149, 149, 149, 0);
+        padding: 1px 10px;
+        border-radius: 9px;
+        border: solid;
+        border-width: 1.5px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 157px;
+        text-align: rgb(114, 123, 125);
+    }
+    .h2__minombreHeader {
+        font-size: 26px;
+        align-self: center;
+        padding-left: 15px;
+        font-family: Raleway;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        margin-top: 3rem;
+    }
+    .img__mifoto-header{
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .div__containerIntroduccion--Introduccion{
+        padding-top: 2rem;
+    }
 }
