@@ -100,3 +100,26 @@ divReactModificado.addEventListener(`click`,function(){
     divReactModificado.style.marginBottom = `0px`;
   }
 });
+
+//PHP
+let divPHPoriginal = document.getElementById('ID-div__containerLogoyTextoPHP--Skills');
+let divPHPModificado = document.getElementById('ID-preload-div__containerLogoyTextoPHP--Skills');
+
+divPHPoriginal.addEventListener('click', function(){
+  if(divPHPoriginal.style.opacity != '0'){
+    divPHPoriginal.style.opacity = 0;
+    divPHPModificado.style.opacity = 1;
+    divPHPModificado.style.zIndex = 1;
+    divPHPModificado.style.marginBottom = '60px';
+  }
+});
+
+divPHPModificado.addEventListener('click',function(){
+  if(divPHPModificado.style.opacity == 1){
+    divPHPoriginal.style.opacity = 1;
+    divPHPModificado.style.opacity = 0;
+    divPHPModificado.style.zIndex = -1;
+    divPHPModificado.style.marginBottom = '0px';
+  }
+});
+
