@@ -1,23 +1,26 @@
-.sobreSkills{
+.sobreSkills {
     background-color: #E5E5E5;
     margin-top: 16px;
 }
-.h2__sobreskills-skills{
+
+.h2__sobreskills-skills {
     padding-top: 16px;
-font-family: Raleway;
-font-size: 29px;
-font-weight: 700;
-line-height: 26px;
-letter-spacing: 0em;
-text-align: center;
+    font-family: Raleway;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
 }
-.div__exteriorskills{
+
+.div__exteriorskills {
     margin-top: 24px;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-.div__contenedor-skills{
+
+.div__contenedor-skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,26 +30,57 @@ text-align: center;
     width: 170px;
     height: 106px;
     padding: 10px 2px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
-.img__vector{
+/* Div HTML5 y Texto HTML (1)*/
+.div__containerLogoyTexto--Skills {
+opacity: 1;
+}
+
+/* Div HTML5 y Texto JS (1)*/
+.preload-div__containerLogoyTexto--Skills {
+    display: none;
+}
+/* Div JS y texto HTML (2)*/
+.div__containerLogoyTextoJS--Skills{
+    opacity: 1;
+    transition: all 0.7s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Div JS y texto JS (2)*/
+.preload-div__containerLogoyTextoJS--Skills{
+    transition: all 1s ease-in-out;
+   z-index: -1;
+}
+/* Div CSS y texto (3) */
+
+.p__resumenJS--Skills{
+    text-align: center;
+}
+.img__vector {
     width: 50px;
     margin-bottom: 10px;
 }
-.h4__titulo-skills{
+
+.h4__titulo-skills {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: bold;
 }
-.h4__titulo-skills-2{
+
+.h4__titulo-skills-2 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: rgb(180, 180, 180);
 }
-.div__skillsinterior-1{
+
+.div__skillsinterior-1 {
     flex-direction: column;
 }
-.div__skillsinterior-2{
+
+.div__skillsinterior-2 {
     flex-direction: column;
 }
