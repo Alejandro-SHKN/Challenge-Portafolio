@@ -68,7 +68,7 @@ opacity: 1;
     z-index: -1;
     opacity: 0;
 }
-/* PRUEBA */
+
 /* Div Node y texto (4) */
 .div__containerLogoyTextoNode--Skills {
     opacity: 1;
@@ -84,7 +84,22 @@ opacity: 1;
     z-index: -1;
     opacity: 0;
   }
-  
+  /*Nuevo */
+  /* Div React y texto (5) */
+.div__containerLogoyTextoReact--Skills{
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Div React y texto JS (6) */
+.preload-div__containerLogoyTextoReact--Skills{
+    transition: all 1s ease-in-out;
+    z-index: -1;
+    opacity: 0;
+}
+
 .p__resumenJS--Skills{
     text-align: center;
 }

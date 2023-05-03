@@ -78,3 +78,25 @@ divNodeModificado.addEventListener('click',function(){
   divNodeModificado.style.zIndex = -1;
   divNodeModificado.style.marginBottom = '0px';
 });
+
+//React
+let divReactOriginal = document.getElementById(`ID-div__containerLogoyTextoReact--Skills`);
+let divReactModificado = document.getElementById(`ID-preload-div__containerLogoyTextoReact--Skills`);
+
+divReactOriginal.addEventListener(`click`, function(){
+  if(divReactOriginal.style.opacity != `0`){
+    divReactOriginal.style.opacity = 0;
+    divReactModificado.style.opacity = 1;
+    divReactModificado.style.zIndex = 1;
+    divReactModificado.style.marginBottom = `60px`;
+  }
+});
+
+divReactModificado.addEventListener(`click`,function(){
+  if(divReactModificado.style.opacity == 1 ){
+    divReactOriginal.style.opacity = 1;
+    divReactModificado.style.opacity = 0;
+    divReactModificado.style.zIndex = -1;
+    divReactModificado.style.marginBottom = `0px`;
+  }
+});
