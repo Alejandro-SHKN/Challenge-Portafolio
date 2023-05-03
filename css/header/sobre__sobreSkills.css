@@ -55,7 +55,18 @@ opacity: 1;
    z-index: -1;
 }
 /* Div CSS y texto (3) */
-
+.div__containerLogoyTextoCSS--Skills{
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.preload-div__containerLogoyTextoCSS--Skills{
+    transition: all 1s ease-in-out;
+    z-index: -1;
+    opacity: 0;
+}
 .p__resumenJS--Skills{
     text-align: center;
 }

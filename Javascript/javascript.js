@@ -36,5 +36,25 @@ divJSModificado.addEventListener(`click`, function(){
     divJSModificado.style.zIndex = -1;
     divJSModificado.style.marginBottom = `0`;
     
-    }
- })
+  }
+})
+
+//CSS
+let divCSSoriginal = document.getElementById(`ID-div__containerLogoyTextoCSS--Skills`);
+let divCSSModificado = document.getElementById(`ID-preload-div__containerLogoyTextoCSS--Skills`);
+
+divCSSoriginal.addEventListener(`click`, function(){
+  if(divCSSoriginal.style.opacity != `9`){
+    divCSSoriginal.style.opacity = 0;
+    divCSSModificado.style.opacity = 1;
+    divCSSModificado.style.zIndex = 1;
+    divCSSModificado.style.marginBottom = `60px`;
+  }
+});
+
+  divCSSModificado.addEventListener(`click`,function(){
+    divCSSoriginal.style.opacity = 1;
+    divCSSModificado.style.opacity = 0;
+    divCSSModificado.style.zIndex = -1;
+    divCSSModificado.style.marginBottom = `0px`;
+  })
