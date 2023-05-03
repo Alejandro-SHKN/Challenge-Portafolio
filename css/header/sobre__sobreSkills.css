@@ -62,11 +62,29 @@ opacity: 1;
     flex-direction: column;
     align-items: center;
 }
+/* Div CSS y texto JS (3) */
 .preload-div__containerLogoyTextoCSS--Skills{
     transition: all 1s ease-in-out;
     z-index: -1;
     opacity: 0;
 }
+/* PRUEBA */
+/* Div Node y texto (4) */
+.div__containerLogoyTextoNode--Skills {
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Div Node y texto JS (4) */
+.preload-div__containerLogoyTextoNode--Skills {
+    transition: all 1s ease-in-out;
+    z-index: -1;
+    opacity: 0;
+  }
+  
 .p__resumenJS--Skills{
     text-align: center;
 }

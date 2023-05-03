@@ -58,3 +58,23 @@ divCSSoriginal.addEventListener(`click`, function(){
     divCSSModificado.style.zIndex = -1;
     divCSSModificado.style.marginBottom = `0px`;
   })
+
+  //NODE
+  let divNodeOriginal = document.getElementById('ID-div__containerLogoyTextoNode--Skills');
+let divNodeModificado = document.getElementById('ID-preload-div__containerLogoyTextoNode--Skills');
+
+divNodeOriginal.addEventListener('click', function(){
+  if(divNodeOriginal.style.opacity != '9'){
+    divNodeOriginal.style.opacity = 0;
+    divNodeModificado.style.opacity = 1;
+    divNodeModificado.style.zIndex = 1;
+    divNodeModificado.style.marginBottom = '60px';
+  }
+});
+
+divNodeModificado.addEventListener('click',function(){
+  divNodeOriginal.style.opacity = 1;
+  divNodeModificado.style.opacity = 0;
+  divNodeModificado.style.zIndex = -1;
+  divNodeModificado.style.marginBottom = '0px';
+});
